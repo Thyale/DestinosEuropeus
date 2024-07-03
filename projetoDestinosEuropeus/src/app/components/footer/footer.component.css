@@ -1,0 +1,45 @@
+.FooterGeral{
+    background-color:#9a9fa3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Imagens{
+    border-bottom: 1px solid #223F59;
+    padding: 20px;
+    width: 70vw;
+    max-width:500px ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DivRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.DivRedes i{
+    background-color: #223f59b5;
+    color: #AEB9BF;
+    border-radius: 50%;
+    padding: 10px 11px;
+    cursor: pointer;
+}
+
+.DivRedes i:hover{
+    background-color: #223F59;
+}
+
+.ImagemIcon{
+    width: 50px;
+}
+
+.Texto{
+    padding: 20px;
+    color:#223F59;
+}
