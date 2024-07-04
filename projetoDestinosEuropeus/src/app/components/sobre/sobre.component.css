@@ -1,0 +1,217 @@
+.DivGeral{
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+}
+
+.TituloInicialSuperior{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid yellow;
+    color: #223F59;
+    margin-bottom: 4em;
+}
+
+.SobreNos{
+    border-radius: 20px;
+    width: 80%;
+    color: #223F59;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    gap: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SobreNos_Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SobreNos h1{
+    font-size: 40px;
+}
+
+.SobreNos p{
+    font-size: 15px;
+}
+
+.SobreNos_img{
+    width: 150%;
+}
+
+.SobreNos_img img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 500px 200px 20px 144px;
+}
+
+.NossaMissao{
+    width: 80%;
+    color: #223F59;
+    max-width: 13000px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    gap: 2em;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: #b5b5b5;
+}
+
+.NossaMissao h2{
+    font-size: 35px;
+}
+
+.NossaMissao p{
+    font-size: 15px;
+}
+
+.NossoTime {
+    border-radius: 20px;
+    width: 80%;
+    color: #223F59;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    gap: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.NossoTime h2 {
+    font-size: 40px;
+}
+
+.NossoTime p {
+    font-size: 15px;
+}
+
+.NossoTime_Texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seta{
+    color: #223F59;
+}
+
+.NossoTime_DivGeralFuncionarios {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    overflow-x: auto;
+    width: 150%;
+    gap: 10px;
+}
+
+.NossoTime_DivGeralFuncionarios::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.NossoTime_DivGeralFuncionarios>div {
+    background-color: #223f59f0;
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.NossoTime_DivGeralFuncionarios h1{
+    color: white;
+    font-size: 30px;
+}
+
+.Texto {
+    font-size: 15px;
+    color: #b5b5b5;
+}
+
+.Especialidade{
+    font-size: 10px;
+    color: rgba(202, 202, 0, 0.666);
+}
+
+.NossoTime_DivGeralFuncionarios img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.TextoFinal{
+    text-align: center;
+    margin: 4em 10px;
+    color: #223F59;
+}
+
+.TextoFinalAlto{
+    color: rgb(221, 221, 0);
+    font-size: 40px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.495);
+}
+
+@media(max-width: 600px){
+    
+    .SobreNos{
+        flex-direction: column;
+    }
+
+    .SobreNos_img{
+        width: 100%;
+    }
+
+    .SobreNos_img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .SobreNos_Texto{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .SobreNos p{
+        font-size: 17px;
+    }
+
+    .NossaMissao p{
+        font-size: 17px;
+    }
+
+    .NossoTime {
+        gap: 1em;
+        flex-direction: column;
+    }
+    
+    .NossoTime p {
+        font-size: 17px;
+    }
+    
+    .NossoTime_DivGeralFuncionarios {
+        width: 100%;
+    }
+
+    .seta{
+        display: none;
+    }
+    
+}
