@@ -1,0 +1,20 @@
+.DivGeral{
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+}
+
+.TextoInicial{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid yellow;
+    color: #223F59;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.TextoInicial p{
+    margin-top: 5px;
+}

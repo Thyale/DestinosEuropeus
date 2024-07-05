@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SobreNosComponent } from './components/sobre/sobre-nos/sobre-nos.component';
 import { NossaMissaoComponent } from './components/sobre/nossa-missao/nossa-missao.component';
 import { NossoTimeComponent } from './components/sobre/nosso-time/nosso-time.component';
+import { PacotesComponent } from './components/visitas/pacotes/pacotes.component';
+import { GaleriaComponent } from './components/visitas/galeria/galeria.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { NossoTimeComponent } from './components/sobre/nosso-time/nosso-time.com
     SobreNosComponent,
     NossaMissaoComponent,
     NossoTimeComponent,
+    PacotesComponent,
+    GaleriaComponent,
   ],
   imports: [
     BrowserModule,
