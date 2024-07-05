@@ -1,0 +1,31 @@
+.NossaMissao{
+    width: 80%;
+    color: #b5b5b5;
+    max-width: 13000px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    gap: 2em;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-color: #223F59;
+}
+
+.NossaMissao h2{
+    font-size: 35px;
+}
+
+.NossaMissao p{
+    font-size: 15px;
+}
+
+@media(max-width: 600px){
+    .NossaMissao p{
+        font-size: 17px;
+    }
+}

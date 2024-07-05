@@ -1,0 +1,96 @@
+.NossoTime {
+    width: 70%;
+    color: #223F59;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 4em;
+    justify-content: space-between;
+}
+
+.NossoTime img{
+    width: 70%;
+    border-radius: 200px 500px 144px 20px;
+}
+
+.NossoTime_Texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.NossoTime_Texto h2 {
+    font-size: 40px;
+}
+
+.NossoTime_Texto p {
+    font-size: 15px;
+}
+
+.NossoTime_DivGeralFuncionarios {
+    width: 80%;
+    color: #223F59;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.NossoTime_DivGeralFuncionarios::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.NossoTime_DivGeralFuncionarios>div {
+    background-color: #223f59f0;
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.NossoTime_DivGeralFuncionarios h1{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 30px;
+}
+
+.Texto {
+    font-size: 15px;
+    color: #b5b5b5;
+}
+
+.Especialidade{
+    font-size: 12px;
+    color: rgba(202, 202, 0, 0.666);
+}
+
+
+@media(max-width: 600px){
+    
+    .NossoTime {
+        width: 80%;
+        gap: 1em;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+
+    .NossoTime img{
+        display: none;
+    }
+    
+    .NossoTime p {
+        font-size: 17px;
+    }
+
+    
+}

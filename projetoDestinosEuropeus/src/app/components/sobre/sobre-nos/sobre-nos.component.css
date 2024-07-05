@@ -1,0 +1,63 @@
+.SobreNos{
+    border-radius: 20px;
+    width: 80%;
+    color: #223F59;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    gap: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SobreNos_Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SobreNos h1{
+    font-size: 40px;
+}
+
+.SobreNos p{
+    font-size: 15px;
+}
+
+.SobreNos_img{
+    width: 150%;
+}
+
+.SobreNos_img img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 500px 200px 20px 144px;
+}
+
+@media(max-width: 600px){
+    
+    .SobreNos{
+        flex-direction: column;
+    }
+
+    .SobreNos_img{
+        width: 100%;
+    }
+
+    .SobreNos_img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .SobreNos_Texto{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .SobreNos p{
+        font-size: 17px;
+    }
+}
