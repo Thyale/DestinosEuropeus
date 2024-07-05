@@ -59,6 +59,10 @@
     flex-shrink: 0;
 }
 
+.NossoTime_DivGeralFuncionarios img{
+    border-radius: 20px;
+}
+
 .NossoTime_DivGeralFuncionarios h1{
     color: rgba(255, 255, 255, 0.705);
     font-size: 30px;

@@ -14,6 +14,7 @@ import { NossaMissaoComponent } from './components/sobre/nossa-missao/nossa-miss
 import { NossoTimeComponent } from './components/sobre/nosso-time/nosso-time.component';
 import { PacotesComponent } from './components/visitas/pacotes/pacotes.component';
 import { GaleriaComponent } from './components/visitas/galeria/galeria.component';
+import { DepoimentosComponent } from './components/visitas/depoimentos/depoimentos.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GaleriaComponent } from './components/visitas/galeria/galeria.component
     NossoTimeComponent,
     PacotesComponent,
     GaleriaComponent,
+    DepoimentosComponent,
   ],
   imports: [
     BrowserModule,

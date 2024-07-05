@@ -1,0 +1,29 @@
+.swiper {
+    width: 80%;
+    max-width: 1300px;
+}
+
+h1,p{
+    text-align: center;
+    color: #223F59;
+}
+
+h1{
+    margin-top: 2em;
+}
+
+p{
+    margin-bottom: 2em;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

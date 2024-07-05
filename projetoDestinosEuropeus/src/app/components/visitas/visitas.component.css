@@ -18,3 +18,38 @@
 .TextoInicial p{
     margin-top: 5px;
 }
+
+.TextoFinal{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #223F59;
+    color:rgba(240, 248, 255, 0.686) ;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 20px;
+    color: #223F59;
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(202, 202, 0);
+}
+
+.TextoFinal h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
