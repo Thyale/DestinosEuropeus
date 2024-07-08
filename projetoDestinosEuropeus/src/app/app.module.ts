@@ -15,6 +15,8 @@ import { NossoTimeComponent } from './components/sobre/nosso-time/nosso-time.com
 import { PacotesComponent } from './components/visitas/pacotes/pacotes.component';
 import { GaleriaComponent } from './components/visitas/galeria/galeria.component';
 import { DepoimentosComponent } from './components/visitas/depoimentos/depoimentos.component';
+import { DestinosPopularesComponent } from './components/home/destinos-populares/destinos-populares.component';
+import { MotivosComponent } from './components/home/motivos/motivos.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { DepoimentosComponent } from './components/visitas/depoimentos/depoiment
     PacotesComponent,
     GaleriaComponent,
     DepoimentosComponent,
+    DestinosPopularesComponent,
+    MotivosComponent,
   ],
   imports: [
     BrowserModule,

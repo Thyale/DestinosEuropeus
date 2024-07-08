@@ -1,0 +1,46 @@
+.destinosDivGeral{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80vw;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.destinosDivGeral h1{
+    text-align: center;
+    background-color: yellow;
+    color: #223F59;
+    padding: 5px;
+}
+
+.DivDestinos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destination{
+    width: 31%;
+    background-color: #223F59;
+    border-radius: 4px;
+    color: rgba(240, 248, 255, 0.752);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+@media(max-width: 600px){
+    .destination{
+        width: 100%;
+    }
+}

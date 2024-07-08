@@ -1,0 +1,59 @@
+.geral{
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+}
+
+.TextoSuperior{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid yellow;
+    color: #223F59;
+}
+
+.TextoSuperior h1{
+    margin-bottom: 5px;
+}
+
+.LinkParaRotaVisitas{
+    width: 80%;
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    color: #223F59;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:rgba(255, 255, 0, 0.701);
+    padding: 10px 10px 12px 10px;
+    border-radius: 20px;
+}
+
+.LinkParaRotaVisitas a{
+    text-decoration: none;
+    background-color: #223F59;
+    color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+} 
+
+.call-to-action{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff75;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-to-action a{
+    color: #ffffff75;
+}

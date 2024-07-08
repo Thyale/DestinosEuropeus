@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  Aparecer:boolean = false
+
+  mostrar(){
+    if(this.Aparecer === false){
+      this.Aparecer = true
+    }else{
+      this.Aparecer = false
+    }
+  }
+  
 }

@@ -1,0 +1,29 @@
+<div class="geral">
+    <h2>Por que Escolher a Destinos Europa?</h2>
+    <div class="DivGeralMotivos">
+        <div>
+            <h3 (click)="mostrar(1)">Experiência</h3>
+            <p *ngIf="Aparecer === 1">Anos de experiência no setor de turismo europeu, proporcionando viagens bem planejadas e seguras.</p>
+        </div>
+        <div>
+            <h3 (click)="mostrar(2)">Pacotes Personalizados</h3>
+            <p *ngIf="Aparecer === 2">Viagens sob medida para atender aos seus desejos, garantindo que cada detalhe seja perfeito para você.</p>
+        </div>
+        <div>
+            <h3 (click)="mostrar(3)">Atendimento de Qualidade</h3>
+            <p *ngIf="Aparecer === 3">Equipe dedicada a oferecer o melhor serviço ao cliente, pronta para ajudar em qualquer etapa da sua viagem.</p>
+        </div>
+        <div>
+            <h3 (click)="mostrar(4)">Guias Locais Especializados</h3>
+            <p *ngIf="Aparecer === 4">Trabalhamos com guias locais experientes que conhecem a fundo cada destino, proporcionando uma experiência autêntica e rica em conhecimento.</p>
+        </div>
+        <div>
+            <h3 (click)="mostrar(5)">Parcerias Exclusivas</h3>
+            <p *ngIf="Aparecer === 5">Parcerias com hotéis, restaurantes e atrações locais para oferecer vantagens exclusivas aos nossos clientes.</p>
+        </div>
+        <div>
+            <h3 (click)="mostrar(6)">Suporte 24/7</h3>
+            <p *ngIf="Aparecer === 6">Suporte ao cliente disponível 24 horas por dia, 7 dias por semana, para garantir que sua viagem seja tranquila e sem preocupações.</p>
+        </div>
+    </div>
+</div>
