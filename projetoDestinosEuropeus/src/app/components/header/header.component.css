@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 
-div{
+.geral{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    padding: 15px;
-    background-color: #223f59;
+    padding: 2em 10px;
+    background-color: #223F59;
     color: aliceblue;
+}
+
+.TituloDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 img{
     width: 50px;
-    background-color: yellow;
-    padding: 5px;
-    border-radius: 50%;
 }
 
 ul{
@@ -33,18 +37,18 @@ h1{
 }
 
 ul a{
-    color: yellow;
     text-decoration: none;
+    color: aliceblue;
 }
 
 ul a:hover{
-    color: rgb(183, 183, 0);
+    color: yellow;
 }
 
 @media(max-width: 600px){
-    div{
+    .geral{
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
+        gap: 30px;
     }
 }

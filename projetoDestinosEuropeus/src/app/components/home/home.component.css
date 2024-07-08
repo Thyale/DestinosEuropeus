@@ -1,5 +1,7 @@
 .geral{
-    background-color: rgb(192, 192, 192);
+    background-image: url(../../../../public/PlanoDeFundo.png);
+    background-position: center center;
+    background-size: cover;
     padding: 10px;
 }
 
@@ -11,6 +13,7 @@
     text-align: center;
     border-bottom: 1px solid yellow;
     color: #223F59;
+    margin-top: 1em;
 }
 
 .TextoSuperior h1{
@@ -19,34 +22,45 @@
 
 .LinkParaRotaVisitas{
     width: 80%;
-    max-width: 1300px;
+    max-width: 800px;
     margin: auto;
+    padding: 20px;
     text-align: center;
-    color: #223F59;
-    margin-top: 2em;
+    background-color: #223F59;
+    color:rgba(240, 248, 255, 0.686) ;
     margin-bottom: 2em;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color:rgba(255, 255, 0, 0.701);
-    padding: 10px 10px 12px 10px;
-    border-radius: 20px;
+    margin-top: 2em;
+    border-radius: 10px;
 }
 
-.LinkParaRotaVisitas a{
-    text-decoration: none;
-    background-color: #223F59;
-    color: yellow;
+button{
+    font-size: 20px;
+    color: #223F59;
+    background-color: yellow;
+    margin-top: 20px;
     padding: 5px;
-    border-radius: 10px;
-} 
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(202, 202, 0);
+}
+
+.TextoFinal h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
 
 .call-to-action{
     width: 80%;
     max-width: 800px;
     margin: auto;
     text-align: center;
-    color: #ffffff75;
+    color:#223f59a3;
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
@@ -55,5 +69,5 @@
 }
 
 .call-to-action a{
-    color: #ffffff75;
+    color:#223f59a3;
 }
